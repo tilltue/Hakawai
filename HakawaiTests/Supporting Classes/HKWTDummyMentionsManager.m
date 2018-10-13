@@ -28,7 +28,7 @@
     }
 }
 
-- (UITableViewCell *)cellForMentionsEntity:(id<HKWMentionsEntityProtocol>)entity withMatchString:(NSString *)matchString tableView:(UITableView *)tableView {
+- (UITableViewCell *)cellForMentionsEntity:(id<HKWMentionsEntityProtocol>)entity withMatchString:(NSString *)matchString tableView:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath {
     return [[UITableViewCell alloc] init];
 }
 
